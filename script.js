@@ -11,13 +11,13 @@ function player() {
 }
 function gameOutcome(computer, player) {
     if(player === computer) {
-        console.log("draw")
+        window.confirm("draw")
     }
     else if(player > computer) {
-        console.log("Player Wins")
+        window.confirm("Player Wins")
     }
     else(player < computer) {
-        console.log("Computer Wins")
+        window.confirm("Computer Wins")
     }
 
 }
